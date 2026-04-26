@@ -1,0 +1,42 @@
+📍 Level 3: Predictive Power & Executive Intelligence
+Level 3 represents the culmination of the internship, where data insights are converted into predictive models and executive-level visualization. This phase focuses on creating a "closed-loop" system: predicting churn and providing the interface to manage it.
+
+🛠️ Task Breakdown
+Task 1: Predictive Modeling (Classification)
+Dataset: Telecom Customer Churn
+
+Objective: Build a supervised learning model to accurately predict whether a customer will churn or stay.
+
+Key Actions:
+
+Model Selection: Implemented and compared classification algorithms, with a primary focus on Random Forest for its high accuracy and feature importance capabilities.
+
+Feature Engineering: Identified critical predictors such as "International Plan" status and "Total Day Charges."
+
+Performance Metrics: Optimized the model for Recall, ensuring that the highest number of potential churners were correctly identified before they left.
+
+Tools: Python (Scikit-Learn, Pandas).
+
+Task 2: Building Dashboards with Power BI
+Dataset: Telecom Customer Churn (Processed & Scored)
+
+Objective: Design an interactive "Revenue Safeguard" dashboard for executive decision-making.
+
+Key Visual Features:
+
+AI-Driven Root Cause: Integrated the Decomposition Tree to allow managers to "drill down" into specific churn drivers (e.g., Service Calls -> Plan Type -> State).
+
+Spatial Risk Heatmap: Developed a Shape Map (Albers USA projection) to highlight geographical revenue hotspots.
+
+Priority Risk Table: Created a high-impact table with Data Bars to rank the Top 5 states by Revenue at Risk.
+
+Interactive Filters: Deployed streamlined slicers for State and International Plan to allow for real-time segment analysis.
+
+Tools: Power BI Desktop, DAX.
+
+📈 Level 3 Outcomes
+Proactive Strategy: Shifted from "Reactive" reporting to "Proactive" churn prevention using classification.
+
+Executive Accessibility: Translated complex statistical results into a clean, interactive dashboard that identifies exactly where revenue is at risk.
+
+Financial Impact: Identified a clear pathway to monitor and protect ₹24,000 in monthly recurring revenue.
