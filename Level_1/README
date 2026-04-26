@@ -1,0 +1,55 @@
+📍 Level 1: Data Foundations & Exploratory Analysis
+This level focuses on the critical first steps of the data pipeline: cleaning raw data, uncovering hidden patterns, and translating numbers into initial visual stories using three distinct datasets.
+
+🛠️ Task Breakdown
+Task 1: Data Cleaning and Preprocessing
+Dataset: Social Media Sentiment Data
+
+Objective: Transform "noisy" social media text and metadata into a structured format for analysis.
+
+Key Actions:
+
+Handled missing values and removed duplicate entries.
+
+Standardized timestamps and cleaned text data (removing special characters/emojis).
+
+Label encoding for categorical sentiment tags.
+
+Tools: Python (Pandas).
+
+Task 2: Exploratory Data Analysis (EDA)
+Dataset: Telecom Customer Dataset
+
+Objective: Identify the primary drivers behind customer attrition (Churn).
+
+Key Actions:
+
+Analyzed the correlation between Customer Service Calls and Churn Rate.
+
+Discovered a "Churn Spike" after the 3rd service call.
+
+Segmented usage patterns (Day vs. Night calls) to find behavioral outliers.
+
+Tools: Python (Matplotlib, Seaborn).
+
+Task 3: Basic Data Visualization
+Dataset: Iris Flower Dataset
+
+Objective: Apply multi-variate visualization techniques to a classic classification dataset.
+
+Key Actions:
+
+Created Pair Plots to visualize the relationship between sepal and petal dimensions.
+
+Used Box Plots to identify outliers in species measurements.
+
+Generated a Heatmap to show strong feature correlations.
+
+Tools: Seaborn, Pandas.
+
+📈 Level 1 Outcomes
+Established a high standard for data hygiene (Data Cleaning).
+
+Translated raw behavioral data into actionable business thresholds (Telecom EDA).
+
+Mastered the ability to visualize complex relationships in multi-dimensional data (Iris Visualization).
