@@ -1,1 +1,40 @@
+📍 Level 2: Statistical Modeling & Advanced AnalyticsLevel 2 moves beyond exploratory analysis into the world of inferential statistics and machine learning. 
 
+This phase involves building mathematical models to predict continuous values, analyze temporal trends, and group data points into meaningful segments.
+
+🛠️ Task BreakdownTask 1: Regression AnalysisDataset: Boston House Prices
+
+Objective: Predict the median value of owner-occupied homes based on neighborhood and housing characteristics.
+
+Key Actions:Performed Feature Selection to identify the strongest predictors (e.g., number of rooms vs. crime rate).
+
+Built a Multiple Linear Regression model to quantify the impact of specific variables on property value.
+Evaluated model performance using R-squared and Mean Squared Error (MSE).
+
+Tools: Python (Scikit-Learn, NumPy).
+
+Task 2: Time Series AnalysisDataset: Apple Inc. (AAPL) Historical Stock Prices
+
+Objective: Analyze stock market trends and seasonality to understand price movements over time.
+
+Key Actions:Performed Rolling Window Analysis (Moving Averages) to smooth out short-term fluctuations.
+Conducted a Stationarity Test (Augmented Dickey-Fuller) to prepare the data for forecasting.
+Visualized price trends and volume spikes to identify historical market volatility.
+
+Tools: Python (Pandas, Matplotlib, Statsmodels).
+
+Task 3: Clustering Analysis (K-Means)Dataset: Telecom Customer Churn
+
+Objective: Use unsupervised learning to segment customers into distinct groups based on usage behavior and risk profile.
+
+Key Actions:Applied the Elbow Method to determine the optimal number of clusters ($K$).
+Segmented customers based on Total Charges, Service Calls, and Account Length.
+Identified a "High-Risk/High-Value" cluster that requires immediate retention focus.
+
+Tools: Python (Scikit-Learn, Seaborn).
+
+📈 Level 2 OutcomesPredictive Accuracy: Developed the ability to model and predict continuous numerical targets (Regression).
+
+Trend Forecasting: Mastered the handling of time-dependent data and financial volatility (Time Series).
+
+Strategic Segmentation: Successfully grouped over 3,000 customers into actionable business segments (Clustering).
